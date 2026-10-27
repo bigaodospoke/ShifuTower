@@ -1,0 +1,15 @@
+{
+  "hitbox": "player",
+  "names": ["Mestre da Torre"],
+  "canDespawn": false,
+  "isMovable": false,
+  "isInvulnerable": true,
+  "isLeashable": false,
+  "allowProjectileHits": false,
+  "autoHealParty": false,
+  "skill": 5,
+  "modelScale": 1.1,
+  "battleConfiguration": {
+    "canChallenge": false
+  }
+}

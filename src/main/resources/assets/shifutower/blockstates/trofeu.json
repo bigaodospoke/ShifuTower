@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "shifutower:block/trofeu" },
+    "facing=east": { "model": "shifutower:block/trofeu", "y": 90 },
+    "facing=south": { "model": "shifutower:block/trofeu", "y": 180 },
+    "facing=west": { "model": "shifutower:block/trofeu", "y": 270 }
+  }
+}
