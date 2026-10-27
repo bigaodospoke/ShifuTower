@@ -1,0 +1,14 @@
+{
+  "hitbox": "player",
+  "names": ["Treinador da Torre"],
+  "canDespawn": false,
+  "isMovable": false,
+  "isInvulnerable": true,
+  "isLeashable": false,
+  "allowProjectileHits": false,
+  "autoHealParty": false,
+  "skill": 3,
+  "battleConfiguration": {
+    "canChallenge": false
+  }
+}

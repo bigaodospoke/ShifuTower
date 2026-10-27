@@ -1,0 +1,10 @@
+.gradle/
+build/
+out/
+run/*
+!run/selftest.sh
+.idea/
+*.iml
+.kotlin/
+bin/
+.vscode/

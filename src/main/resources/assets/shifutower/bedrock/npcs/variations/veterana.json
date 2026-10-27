@@ -1,0 +1,13 @@
+{
+  "name": "shifutower:veterana",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "shifutower:textures/npcs/veterana.png",
+      "layers": []
+    }
+  ]
+}

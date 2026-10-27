@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "com.shifutower.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "mixins": ["PokemonEntityMixin", "PokemonServerDelegateMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
