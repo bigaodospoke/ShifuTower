@@ -4,16 +4,33 @@
   "version": "${version}",
   "name": "ShifuTower",
   "description": "Torre de Batalha para Cobblemon: suba andares enfrentando treinadores com times aleatórios cada vez mais fortes até o Mestre da Torre e seu time de lendários. 1 desafio por dia, Battle Points, loja configurável, ranking por tempo e troféu de campeão.",
-  "authors": ["bigaodospoke"],
-  "contact": {},
-  "license": "MIT",
+  "authors": [
+    "Kauã Batista do Nascimento"
+  ],
+  "contact": {
+    "homepage": "https://github.com/bigaodospoke",
+    "sources": "https://github.com/bigaodospoke/ShifuTower"
+  },
+  "license": "All Rights Reserved",
   "icon": "assets/shifutower/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [{ "adapter": "kotlin", "value": "com.shifutower.ShifuTower" }],
-    "client": [{ "adapter": "kotlin", "value": "com.shifutower.client.ShifuTowerClient" }]
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.shifutower.ShifuTower"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "com.shifutower.client.ShifuTowerClient"
+      }
+    ]
   },
-  "mixins": ["shifutower.mixins.json"],
+  "mixins": [
+    "shifutower.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~1.21.1",

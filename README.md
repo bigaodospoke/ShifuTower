@@ -97,3 +97,7 @@ bash run/selftest.sh run/test-output.log | ./gradlew runServer
 ```
 
 O `build.gradle.kts` coloca o ICU4J no classpath do `runServer`: o Loom tira essa biblioteca (que o Minecraft só usa no cliente), mas o Showdown do Cobblemon precisa dela. Em produção isso não é necessário, porque o jar do Cobblemon traz a própria cópia.
+
+## Licença / License
+
+Copyright (c) 2026 Kauã Batista do Nascimento ([bigaodospoke](https://github.com/bigaodospoke)). **Todos os direitos reservados / All rights reserved.** Veja o arquivo [LICENSE](LICENSE).
